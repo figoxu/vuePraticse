@@ -39,9 +39,19 @@ export default {
                 component(resolve) {
                     require.ensure(['views/elementUi/table/stripe/index.vue'], ()=> {
                         resolve(require('views/elementUi/table/stripe/index.vue'));
-                })
+                    })
+                }
+            },
+            {
+                path: "/elementUi/table/border",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/border.vue'], ()=> {
+                        resolve(require('views/elementUi/table/border.vue'));
+                    })
                 }
             }
+
+
         ]
     }]
 }

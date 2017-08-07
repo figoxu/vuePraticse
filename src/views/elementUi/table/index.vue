@@ -6,7 +6,7 @@
                 <router-link to='/elementUi/table/doc'>文档</router-link>
                 <router-link to='/elementUi/table/basic'>基础</router-link>
                 <router-link to='/elementUi/table/stripe'>带斑马纹</router-link>
-                <router-link to='/games/action/godOfWar'>带边框</router-link>
+                <router-link to='/elementUi/table/border'>带边框</router-link>
                 <router-link to='/games/action/godOfWar'>带状态</router-link>
                 <router-link to='/games/action/godOfWar'>固定表头</router-link>
                 <router-link to='/games/action/godOfWar'>固定列</router-link>

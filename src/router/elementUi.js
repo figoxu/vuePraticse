@@ -81,6 +81,14 @@ export default {
                         resolve(require('views/elementUi/table/fixHeaderCloumn.vue'));
                     })
                 }
+            },
+            {
+                path: "/elementUi/table/flowHeight",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/flowHeight.vue'], ()=> {
+                        resolve(require('views/elementUi/table/flowHeight.vue'));
+                    })
+                }
             }
         ]
     }]

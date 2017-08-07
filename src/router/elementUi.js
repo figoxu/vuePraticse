@@ -49,6 +49,14 @@ export default {
                         resolve(require('views/elementUi/table/border.vue'));
                     })
                 }
+            },
+            {
+                path: "/elementUi/table/state",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/state.vue'], ()=> {
+                        resolve(require('views/elementUi/table/state.vue'));
+                    })
+                }
             }
 
 

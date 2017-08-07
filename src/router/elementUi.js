@@ -89,6 +89,14 @@ export default {
                         resolve(require('views/elementUi/table/flowHeight.vue'));
                     })
                 }
+            },
+            {
+                path: "/elementUi/table/multiHeader",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/multiHeader.vue'], ()=> {
+                        resolve(require('views/elementUi/table/multiHeader.vue'));
+                    })
+                }
             }
         ]
     }]

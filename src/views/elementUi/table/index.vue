@@ -12,7 +12,7 @@
                 <router-link to='/elementUi/table/fixColumn'>固定列</router-link>
                 <router-link to='/elementUi/table/fixHeaderCloumn'>固定列和表头</router-link>
                 <router-link to='/elementUi/table/flowHeight'>流体高度</router-link>
-                <router-link to='/games/action/godOfWar'>多级表头</router-link>
+                <router-link to='/elementUi/table/multiHeader'>多级表头</router-link>
                 <router-link to='/games/action/godOfWar'>单选</router-link>
                 <router-link to='/games/action/godOfWar'>多选</router-link>
             </li>

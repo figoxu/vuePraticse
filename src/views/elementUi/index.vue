@@ -13,7 +13,7 @@
                     <span class='info'>new</span>
                 </div>
                 <ul>
-                    <li><router-link to='/games/action'>表格</router-link></li>
+                    <li><router-link to='/elementUi/table'>表格</router-link></li>
                     <li><router-link to='/games/shooting'>表单</router-link></li>
                     <li><router-link to='/games/strategy'>通知</router-link></li>
                     <li><router-link to='/games/strategy'>导航</router-link></li>

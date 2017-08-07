@@ -3,9 +3,9 @@
 
         <ol class="breadcrumb">
             <li class='breadcrumb-item'>
-                <router-link to='/elementUi/table/doc/index'>文档</router-link>
-                <router-link to='/elementUi/table/basic/index'>基础</router-link>
-                <router-link to='/games/action/godOfWar'>带斑马纹</router-link>
+                <router-link to='/elementUi/table/doc'>文档</router-link>
+                <router-link to='/elementUi/table/basic'>基础</router-link>
+                <router-link to='/elementUi/table/stripe'>带斑马纹</router-link>
                 <router-link to='/games/action/godOfWar'>带边框</router-link>
                 <router-link to='/games/action/godOfWar'>带状态</router-link>
                 <router-link to='/games/action/godOfWar'>固定表头</router-link>

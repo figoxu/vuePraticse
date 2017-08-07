@@ -8,7 +8,11 @@
                 <span class="title"><span>i</span><span>Biu</span></span>
             </div>
             <ul>
-               <li><router-link to='/video'>视频</router-link></li><li><router-link to='/posts'>文章</router-link></li><li><router-link to='/games'>游戏</router-link></li><li><router-link to='/music'>音乐</router-link></li>
+               <li><router-link to='/video'>视频</router-link></li>
+                <li><router-link to='/posts'>文章</router-link></li>
+                <li><router-link to='/games'>游戏</router-link></li>
+                <li><router-link to='/music'>音乐</router-link></li>
+                <li><router-link to='/elementUi'>elementUi</router-link></li>
             </ul>
             <div class="user-area">
               <span class="bell">
@@ -28,7 +32,6 @@
 </template>
 
 <script type="text/ecmascript-6">
-
     export default{
         data(){
             return {

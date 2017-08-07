@@ -10,6 +10,7 @@ import video from './video.js';
 import posts from './posts.js';
 import games from './games.js';
 import music from './music.js';
+import elementUi from './elementUi';
 
 
 Vue.use(Router);
@@ -26,7 +27,7 @@ export default new Router({
                 posts,
                 games,
                 music,
-
+                elementUi,
             ]
 
         },

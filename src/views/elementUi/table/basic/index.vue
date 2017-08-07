@@ -20,8 +20,6 @@
 </template>
 
 <script>
-
-    import ElementUI from 'element-ui'
     export default {
         data() {
             return {

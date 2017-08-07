@@ -16,7 +16,7 @@ export default {
                         resolve(require('views/elementUi/table/index.vue'));
             })
         }
-        ,redirect: '/elementUi/table/basic/index'
+        ,redirect: '/elementUi/table/doc/index'
         ,children:[
             {
                 path: "/elementUi/table/basic/index",
@@ -25,20 +25,15 @@ export default {
                         resolve(require('views/elementUi/table/basic/index.vue'));
                 })
                 }
+            },
+            {
+                path: "/elementUi/table/doc/index",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/doc/index.vue'], ()=> {
+                        resolve(require('views/elementUi/table/doc/index.vue'));
+                })
+                }
             }
         ]
     }]
 }
-
-
-
-// ,redirect: '/games/action/godOfWar',
-// children: [{
-//     path: "/games/action/godOfWar",
-//     component(resolve) {
-//         require.ensure(['views/games/action/godOfWar/index.vue'], () => {
-//             resolve(require('views/games/action/godOfWar/index.vue'));
-//     })
-//     }
-// }]
-// /views/elementUi/cmp/index.vue

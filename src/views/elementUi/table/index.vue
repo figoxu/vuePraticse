@@ -3,6 +3,7 @@
 
         <ol class="breadcrumb">
             <li class='breadcrumb-item'>
+                <router-link to='/elementUi/table/doc/index'>文档</router-link>
                 <router-link to='/elementUi/table/basic/index'>基础</router-link>
                 <router-link to='/games/action/godOfWar'>带斑马纹</router-link>
                 <router-link to='/games/action/godOfWar'>带边框</router-link>

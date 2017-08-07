@@ -57,9 +57,31 @@ export default {
                         resolve(require('views/elementUi/table/state.vue'));
                     })
                 }
+            },
+            {
+                path: "/elementUi/table/fixHeader",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/fixHeader.vue'], ()=> {
+                        resolve(require('views/elementUi/table/fixHeader.vue'));
+                    })
+                }
+            },
+            {
+                path: "/elementUi/table/fixColumn",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/fixColumn.vue'], ()=> {
+                        resolve(require('views/elementUi/table/fixColumn.vue'));
+                    })
+                }
+            },
+            {
+                path: "/elementUi/table/fixHeaderCloumn",
+                component(resolve) {
+                    require.ensure(['views/elementUi/table/fixHeaderCloumn.vue'], ()=> {
+                        resolve(require('views/elementUi/table/fixHeaderCloumn.vue'));
+                    })
+                }
             }
-
-
         ]
     }]
 }

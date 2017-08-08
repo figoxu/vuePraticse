@@ -21,24 +21,24 @@ export default {
             {
                 path: "/elementUi/table/basic",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/basic/index.vue'], ()=> {
-                        resolve(require('views/elementUi/table/basic/index.vue'));
+                    require.ensure(['views/elementUi/table/basic.vue'], ()=> {
+                        resolve(require('views/elementUi/table/basic.vue'));
                 })
                 }
             },
             {
                 path: "/elementUi/table/doc",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/doc/index.vue'], ()=> {
-                        resolve(require('views/elementUi/table/doc/index.vue'));
+                    require.ensure(['views/elementUi/table/doc.vue'], ()=> {
+                        resolve(require('views/elementUi/table/doc.vue'));
                 })
                 }
             },
             {
                 path: "/elementUi/table/stripe",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/stripe/index.vue'], ()=> {
-                        resolve(require('views/elementUi/table/stripe/index.vue'));
+                    require.ensure(['views/elementUi/table/stripe.vue'], ()=> {
+                        resolve(require('views/elementUi/table/stripe.vue'));
                     })
                 }
             },

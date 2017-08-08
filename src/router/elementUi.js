@@ -5,39 +5,39 @@ export default {
     },
     redirect: '/elementUi/table',
     component(resolve) {
-        require.ensure(['views/elementUi/index.vue'], ()=> {
+        require.ensure(['views/elementUi/index.vue'], () => {
             resolve(require('views/elementUi/index.vue'));
         })
     },
     children: [{
         path: "/elementUi/table",
         component(resolve) {
-            require.ensure(['views/elementUi/table/index.vue'], ()=> {
-                        resolve(require('views/elementUi/table/index.vue'));
+            require.ensure(['views/elementUi/table/index.vue'], () => {
+                resolve(require('views/elementUi/table/index.vue'));
             })
         }
-        ,redirect: '/elementUi/table/doc'
-        ,children:[
+        , redirect: '/elementUi/table/doc'
+        , children: [
             {
                 path: "/elementUi/table/basic",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/basic.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/basic.vue'], () => {
                         resolve(require('views/elementUi/table/basic.vue'));
-                })
+                    })
                 }
             },
             {
                 path: "/elementUi/table/doc",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/doc.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/doc.vue'], () => {
                         resolve(require('views/elementUi/table/doc.vue'));
-                })
+                    })
                 }
             },
             {
                 path: "/elementUi/table/stripe",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/stripe.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/stripe.vue'], () => {
                         resolve(require('views/elementUi/table/stripe.vue'));
                     })
                 }
@@ -45,7 +45,7 @@ export default {
             {
                 path: "/elementUi/table/border",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/border.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/border.vue'], () => {
                         resolve(require('views/elementUi/table/border.vue'));
                     })
                 }
@@ -53,7 +53,7 @@ export default {
             {
                 path: "/elementUi/table/state",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/state.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/state.vue'], () => {
                         resolve(require('views/elementUi/table/state.vue'));
                     })
                 }
@@ -61,7 +61,7 @@ export default {
             {
                 path: "/elementUi/table/fixHeader",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/fixHeader.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/fixHeader.vue'], () => {
                         resolve(require('views/elementUi/table/fixHeader.vue'));
                     })
                 }
@@ -69,7 +69,7 @@ export default {
             {
                 path: "/elementUi/table/fixColumn",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/fixColumn.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/fixColumn.vue'], () => {
                         resolve(require('views/elementUi/table/fixColumn.vue'));
                     })
                 }
@@ -77,7 +77,7 @@ export default {
             {
                 path: "/elementUi/table/fixHeaderCloumn",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/fixHeaderCloumn.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/fixHeaderCloumn.vue'], () => {
                         resolve(require('views/elementUi/table/fixHeaderCloumn.vue'));
                     })
                 }
@@ -85,7 +85,7 @@ export default {
             {
                 path: "/elementUi/table/flowHeight",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/flowHeight.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/flowHeight.vue'], () => {
                         resolve(require('views/elementUi/table/flowHeight.vue'));
                     })
                 }
@@ -93,11 +93,31 @@ export default {
             {
                 path: "/elementUi/table/multiHeader",
                 component(resolve) {
-                    require.ensure(['views/elementUi/table/multiHeader.vue'], ()=> {
+                    require.ensure(['views/elementUi/table/multiHeader.vue'], () => {
                         resolve(require('views/elementUi/table/multiHeader.vue'));
                     })
                 }
             }
         ]
+    }
+    ,{
+        path: "/elementUi/form",
+        component(resolve) {
+            require.ensure(['views/elementUi/form/index.vue'], () => {
+                resolve(require('views/elementUi/form/index.vue'));
+            })
+        }
+        , redirect: '/elementUi/form/basic'
+        , children: [
+            {
+                path: "/elementUi/form/basic",
+                component(resolve) {
+                    require.ensure(['views/elementUi/form/basic.vue'], () => {
+                        resolve(require('views/elementUi/form/basic.vue'));
+                    })
+                }
+            }
+        ]
+
     }]
 }

@@ -16,5 +16,12 @@ export default {
                 resolve(require('views/echart/home.vue'));
             })
         }
+    },{
+        path: "/echart/pure",
+        component(resolve) {
+            require.ensure(['views/echart/pure.vue'], () => {
+                resolve(require('views/echart/pure.vue'));
+            })
+        }
     }],
 }

@@ -13,6 +13,7 @@
                 <li><router-link to='/games'>游戏</router-link></li>
                 <li><router-link to='/music'>音乐</router-link></li>
                 <li><router-link to='/elementUi'>elementUi</router-link></li>
+                <li><router-link to='/echart'>echart</router-link></li>
             </ul>
             <div class="user-area">
               <span class="bell">

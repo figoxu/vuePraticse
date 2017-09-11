@@ -4,3 +4,6 @@ http://blog.csdn.net/wang124454731/article/details/53525030
 
 
 https://justineo.github.io/vue-echarts/demo/
+
+vue数据可视化
+https://github.com/SimonZhangITer/DataVisualization

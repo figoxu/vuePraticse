@@ -2,6 +2,25 @@
 <template>
     <div class="body">
 
+        <div class="left_col ">
+
+            <!--一级导航区域-->
+            <div class="left_link">
+
+                <div class="leftBoard">
+                    <span class="icon"></span>
+                    <span class='sideTitle'>Sidebars</span>
+                    <span class='info'>new</span>
+                </div>
+                <ul>
+                    <li><router-link to='/echart/home'>Home</router-link></li>
+                    <li><router-link to='/echart/pure'>Pure</router-link></li>
+                    <li><router-link to='/echart/calendar/count'>Count</router-link></li>
+                    <li><router-link to='/echart/calendar/heat'>Heat</router-link></li>
+                </ul>
+            </div>
+
+        </div>
         <router-view></router-view>
 
     </div>

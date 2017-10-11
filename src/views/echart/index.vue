@@ -17,6 +17,8 @@
                     <li><router-link to='/echart/pure'>Pure</router-link></li>
                     <li><router-link to='/echart/calendar/count'>Count</router-link></li>
                     <li><router-link to='/echart/calendar/heat'>Heat</router-link></li>
+                    <li><router-link to='/echart/calendar/pie'>Pie</router-link></li>
+
                 </ul>
             </div>
 

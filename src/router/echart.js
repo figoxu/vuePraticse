@@ -37,6 +37,13 @@ export default {
                 resolve(require('views/echart/calendar/heat.vue'));
             })
         }
+    },{
+        path: "/echart/calendar/pie",
+        component(resolve) {
+            require.ensure(['views/echart/calendar/pie.vue'], () => {
+                resolve(require('views/echart/calendar/pie.vue'));
+            })
+        }
     }],
 }
 

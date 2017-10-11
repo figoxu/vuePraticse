@@ -115,7 +115,7 @@
                     };
                 });
             },
-            getPieSeriesUpdate(scatterData, chart){
+            getPieSeriesUpdate(scatterData, chart){//todo resize时候调用
                 return echarts.util.map(scatterData, function (item, index) {
                     var center = chart.convertToPixel('calendar', item);
                     return {

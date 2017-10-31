@@ -12,6 +12,7 @@ import games from './games.js';
 import music from './music.js';
 import elementUi from './elementUi';
 import echart from './echart'
+import vuexui from './vuexui'
 
 
 Vue.use(Router);
@@ -30,6 +31,7 @@ export default new Router({
                 music,
                 elementUi,
                 echart,
+                vuexui,
             ]
 
         },
